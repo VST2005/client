@@ -1,6 +1,6 @@
 import axios from 'axios';
  const API = axios.create({
-    baseURL :'http://localhost:3000/api',
+    baseURL :'https://serverapi-7wt0.onrender.com/api',
     withCredentials:true,  //agar cookies ka use ho rha hai
  });
 
